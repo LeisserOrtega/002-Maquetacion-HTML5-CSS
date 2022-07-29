@@ -1,0 +1,124 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: rgb(14, 14, 14);
+    /* background-color: red; */
+    color: white;
+}
+
+body h2 {
+    text-align: center;
+    margin: 90px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 30px;
+}
+
+section article.skillstyle {
+    background-color: rgb(14, 14, 14) ;
+    border-radius: 10px;
+}
+
+.skillimage {
+    width: 100px;
+}
+
+section article {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+.aboutme {
+    text-align: center;
+    font-size: 2em;
+    background-color: rgb(49, 89, 163);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#description {
+    background-color: rgb(49, 89, 163);
+    width: 100%;
+    padding: 150px 0px 150px 0px;
+}
+
+header img {
+    position: absolute;
+    margin-left: 250px;
+}
+
+.t-center {
+    text-align: center;
+    margin-top: 90px;
+}
+
+header {
+    height: 65rem;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 7rem;
+    color: white;
+    margin: 100px 0 0 0;
+    padding: 30px 0 0 0;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    margin: 0;
+}
+
+header p {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+
+#navigation {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 15px;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+    margin: 0px;
+    padding: 20px;
+}
+
+header a:link {
+    color: cornflowerblue;
+}
+
+header a:visited {
+    color: cornflowerblue;
+}
+
+header a:hover {
+    transition: color 0.3s ease;
+    color: rgb(88, 88, 136);
+}
+
+#footer {
+    background: rgb(18, 18, 18);
+    text-align: center;
+    width: 100%;
+    padding: 64px 0 86px;
+}
